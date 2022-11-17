@@ -22,10 +22,19 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+  border: red 2px solid;
 }
 
 #trybewarts-forms-logo {
   display: flex;
   justify-content: flex-start;
   height: 500px;
+}
+
+.containerEvaluationForm {
+  display: flex;
+  margin: 8px;
+  gap: 8px;
+
+
 }
