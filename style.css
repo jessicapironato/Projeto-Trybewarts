@@ -35,11 +35,9 @@ main {
   display: flex;
   margin: 8px;
   gap: 8px;
-
-
 }
-.family{
-display: flex;
-flex-direction: column;
 
+.family {
+  display: flex;
+  flex-direction: column;
 }
