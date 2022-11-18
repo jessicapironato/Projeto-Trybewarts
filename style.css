@@ -1,28 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  font-family: Inknut Antiqua, serif;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
   background-color: rgb(50, 167, 145);
 }
 
 .trybewarts-login {
   display: flex;
+  gap: 5px;
+}
+
+.trybewarts-header-logo {
+  width: 120px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+#trybewarts-header-title {
+  font-size: 50px;
+  color: white;
+}
+
+#trybewarts-login {
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.inputsLogin {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid green;
+  background-color: white;
+}
+
+#botaoEntrar {
+  height: 40px;
+  padding: 0 15px;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.3s;
 }
 
 main {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+}
+
+body {
+  background-image: url('images/Design\ sem\ nome\ \(1\).png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
-  border: red 2px solid;
+  border-radius: 8px;
+  border: rgb(74, 95, 64) 1px solid;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 14px;
+  background-color: rgba(245, 240, 235, 0.727);
+}
+
+.containerFamily {
+  margin: 10px;
+}
+
+.conteneirCheckbox {
+  margin: 10px;
+}
+
+.containerEvaluationForm {
+  display: flex;
+  margin: 10px;
+  gap: 8px;
+}
+
+.containerFamily > label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.containerAgreement {
+  margin: 10px;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+}
+
+#input-name {
+  border-radius: 8px;
+  border-color: rgba(63, 60, 60, 0.464);
+  color: rgba(63, 60, 60, 0.464);
+  width: 230px;
+}
+
+#input-lastname {
+  border-radius: 8px;
+  border-color: rgba(63, 60, 60, 0.464);
+  width: 230px;
+}
+
+#input-email {
+  border-radius: 8px;
+  border-color: rgba(63, 60, 60, 0.464);
+  width: 230px;
+}
+
+#house {
+  margin-left: 48px;
+  border-radius: 8px;
+  border-color: rgba(63, 60, 60, 0.464);
+  width: 230px;
+  height: 30px;
+}
+
+#casa {
+  margin-left: 5px;
+  text-align: center;
+}
+
+#selected {
+  text-align: center;
+  border-radius: 8px;
+  border-color: rgba(63, 60, 60, 0.464);
+  color: rgba(63, 60, 60, 0.464);
+  width: 180px;
+  height: 60px;
+}
+
+#gitnoria-house {
+  text-align: center;
+  border-radius: 8px;
+  border-color: rgba(63, 60, 60, 0.464);
+  width: 180px;
+  height: 60px;
+}
+
+#reactpuff-house {
+  text-align: center;
+  border-radius: 8px;
+  border-color: rgba(63, 60, 60, 0.464);
+  width: 180px;
+  height: 60px;
+}
+
+#corvinode-house {
+  text-align: center;
+  border-radius: 8px;
+  border-color: rgba(63, 60, 60, 0.464);
+  width: 180px;
+  height: 60px;
+}
+
+#pytherina-house {
+  text-align: center;
+  border-radius: 8px;
+  border-color: rgba(63, 60, 60, 0.464);
+  width: 180px;
+  height: 60px;
+}
+
+.conteneirCheckbox > label {
+  display: flex;
+  gap: 4px;
+}
+
+.containerAvaliacao {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.containerSubmit {
+  display: grid;
+  grid-column: 1 / -1;
+  margin-top: 10px;
 }
 
 #trybewarts-forms-logo {
@@ -31,13 +207,13 @@ main {
   height: 500px;
 }
 
-.containerEvaluationForm {
-  display: flex;
-  margin: 8px;
-  gap: 8px;
+footer {
+  background-color: rgba(50, 167, 146, 0.652);
+  height: 35px;
 }
 
-.family {
+footer p {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  color: white;
 }
