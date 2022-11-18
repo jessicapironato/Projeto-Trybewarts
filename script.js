@@ -12,3 +12,15 @@ function acessarForm() {
 }
 
 botaoEntrar.addEventListener('click', acessarForm);
+
+const botaoEnviar = document.getElementById('submit-btn');
+const checkbox = document.getElementById('agreement');
+
+function habilitarDesabilitarBtn(event) {
+  if (event.target.checked) {
+    botaoEnviar.disabled = false;
+  } else {
+    botaoEnviar.disabled = true;
+  }
+}
+checkbox.addEventListener('change', habilitarDesabilitarBtn);
