@@ -16,10 +16,7 @@ A página de formulário permite que os estudantes da Escola de Magia de Trybewa
 
 Siga as orientações abaixo para configurar e executar o projeto em sua máquina local:
 
-1. Clone o repositório:
-   ```
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   ```
+1. Clone o repositório
 
 2. Instale as dependências:
    ```
@@ -52,7 +49,7 @@ Agradecemos antecipadamente pelo seu interesse em contribuir para este projeto!
 
 Em caso de dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
 
-E-mail: seu-email@example.com
+E-mail: jessicapmaximo@gmail.com
 
 https://github.com/jessicapironato
 
